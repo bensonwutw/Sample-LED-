@@ -1,0 +1,9 @@
+;MEMORY
+MEMORY ROM : ( 00000000H, 00008000H ) / REGULAR
+;MEMORY RAM : ( 000ff900H, 00000600H ) / REGULAR
+MEMORY RAM:( 0FF900H, 051FH )
+;MEMORY RAM:( 0FF100H, 0D20H )
+; ----------------------------------------------------------
+; Define new memory entry for saddr area
+; ----------------------------------------------------------
+MEMORY RAM_SADDR : ( 0FFE20H, 0001E0H )
