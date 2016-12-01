@@ -528,7 +528,7 @@ void Init_Display_Panel (void)
     /* Load up Segment Maps */
     Init_Maps();
     
-    /* Clear LCD Data Registers */
+    
     Clear_Display();
     
     /* Enable the LCD */
