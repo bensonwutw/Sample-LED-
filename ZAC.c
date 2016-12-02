@@ -129,14 +129,14 @@ uint16_t getSmateSensor (uint16_t *temp_value16)
 * Description   : 
 * Arguments     : 
 *                         
-* Return Value  : 60us wait
+* Return Value  : 120us wait
 ***********************************************************************************************************************/
 
 void ZacWireWait(void)
 {
 	unsigned int DelayTime;
 
-	for(DelayTime = 0;DelayTime<200;DelayTime++)
+	for(DelayTime = 0;DelayTime<400;DelayTime++)
 		NOP();
 }
 
