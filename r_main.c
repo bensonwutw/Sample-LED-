@@ -57,7 +57,7 @@ volatile unsigned short g_sw1_period = 0u,g_sw2_period = 0u;
 uint8_t g_sw1_pressed =0,g_sw1_hold=0,g_sw2_pressed=0,g_sw2_hold=0,g_sw3_pressed=0,g_sw3_hold=0;
 extern uint8_t g_sw1_enable_sample,g_sw2_enable_sample ;
 extern void FlashMemoryAccess (void);
-    char *res = "99.9";
+    char *res = "99.0";
     float f_k;
     // int8_t  g_buffer[12] = "80.9";
 /* End user code. Do not edit comment generated here */
